@@ -1,0 +1,58 @@
+Amogh Thakur
++1 (503) 740-3632 | amogh.thakur23@gmail.com | LinkedIn: AmoghThakur | Github: AmoghThakur
+
+OBJECTIVE: Internship as a Semiconductor & AI Research Intern, Summer 2026.
+
+EDUCATION
+M.S. Electrical and Computer Engineering (GPA: 3.60/4)
+Portland State University, Portland, OR (GRAD: Jun 2027)
+Courses (by June 2026): SystemVerilog, Microprocessor System Design, Verilog Fundamentals of Pre-Silicon Validation, Computer Architecture, Advanced Computer Architecture, Hardware of AI/ML
+
+Bachelor of Engineering in Electronics and Telecommunication (GPA: 3.50/4)
+Pune Institute of Computer and Technology (Graduated Jun 2023)
+
+SKILLS
+Programming Languages: SystemVerilog, Verilog, C, Python, Perl
+Simulation/EDA Tools: QuestaSim, ModelSim, Synopsys VCS, Intel VTune
+Protocols: I2C, UART, AMBA AXI4-Lite
+Design Verification: RTL Design (Verilog/SystemVerilog), FSM Design, UVM,
+SystemVerilog OOP, Constrained Random Verification, Functional Coverage, RTL Debugging, Regression Testing
+
+Computer Architecture: Memory Systems, Cache Organization, Coherency Protocols,
+Memory Hierarchy, Performance Analysis, Pipelining, Out-oforder systems, AI accelerator architectures (systolic arrays, dataflow architectures)
+
+PROJECTS
+SystemVerilog Python 2D Systolic Array based AI Accelerator Chiplet
+Systolic Array accelerator of 1TFLOPS/s enhancing hardware roofline by 3.7× and achieving
+a 7× kernel speedup for a hybrid CNN based kernel.
+
+SystemVerilog DDR5 Memory Interface PHY Verification
+UVM-based verification of JEDEC DDR5 PHY analyzing timing, protocol correctness, and
+memory interface design tradeoffs; 90% functional coverage via automated regression with
+python scripts.
+
+C Model MIPS microarchitecture for 5-stage Pipelining.
+Designed and implemented a 5-stage pipelined MIPS microarchitecture model to analyze instruction flow, hazards (data/control) and forwarding, stalls, flushes, and CPI analysis.
+
+Python Simulating the Memory Hierarchy: Building and Analyzing a Split L1 Cache System
+Modeled and analyzed a split L1 cache architecture with MESI coherence protocol, evaluating
+performance tradeoffs across workloads and memory access patterns.
+
+SystemVerilog Design and Verification of AMBA AXI-LITE Protocol
+Design and verification of an AMBA AXI4-Lite interface testbench executing 12+ transactions
+across 6 protocol corner cases. Validated misaligned accesses, boundary conditions, back-to-back transfers, partial strobes, and R-channel stalls via simulation.
+
+EXPERIENCE
+Metro GSC (2023-2025)
+Developed Python-based automation scripts for large verification datasets, performance trend
+analysis and bottleneck identification. Automated graphical dashboards for performance monitoring and data analysis using modern libraries.
+
+PUBLICATIONS
+Application of VGGish and YAMnet Model for North Indian Raga Music Recognition using Transfer
+Learning: Vol.20, No.6(2024)
+Raga Recommendation Based on Emotion Identification using NLP: Volume 11 — Issue 4 — April 2023
+
+EXTRACURRICULAR
+Oregon MESA (2025-Present)
+Mentoring students in microcontroller-based prototyping (Arduino, Raspberry Pi), focusing on
+debugging and system design.

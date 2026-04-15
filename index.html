@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amogh Thakur | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Amogh<span class="accent">.</span></h1>
+      <nav class="nav-menu" aria-label="Section navigation">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#publications">Publications</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="about-grid">
+        <div class="about-photo">
+          <img
+            src="AVT_Photo.jpeg"
+            alt="Amogh Thakur"
+            class="profile-img"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <div class="photo-placeholder">AT</div>
+        </div>
+        <div class="about-text">
+          <p class="greeting">Hi, I'm <span class="accent">Amogh Thakur.</span></p>
+          <p class="role-line"><span id="typed-role"></span></p>
+          <p>
+            M.S. ECE student at <strong>Portland State University</strong>. I enjoy building
+            RTL designs and verification environments, analysing performance, and currently
+            exploring AI Accelerator architectures.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            <em>Seeking opportunities in <strong>Design Verification</strong>, <strong>Validation</strong>, and <strong>Hardware for AI</strong>.</em>
+          </p>
+          <div style="margin-top: 1.5rem; display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="mailto:amogh.thakur23@gmail.com" class="btn">Email Me</a>
+            <a href="https://www.linkedin.com/in/amogh-thakur-242822218/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+            <a href="https://github.com/AmoghT23" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="page-header">
+        <h2 class="page-title">Skills</h2>
+        <p class="page-subtitle">Languages, tools, protocols, and domain expertise</p>
+      </div>
+      <div class="skills-group">
+        <div class="skill-category">
+          <h4 class="skill-cat-title">Programming Languages</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">SystemVerilog</span>
+            <span class="skill-chip">Verilog</span>
+            <span class="skill-chip">C</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Perl</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title">EDA / Simulation Tools</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">QuestaSim</span>
+            <span class="skill-chip">ModelSim</span>
+            <span class="skill-chip">Synopsys VCS</span>
+            <span class="skill-chip">Intel VTune</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title">Protocols</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">I2C</span>
+            <span class="skill-chip">UART</span>
+            <span class="skill-chip">AMBA AXI4-Lite</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title">Design Verification</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">RTL Design</span>
+            <span class="skill-chip">FSM Design</span>
+            <span class="skill-chip">UVM</span>
+            <span class="skill-chip">SystemVerilog OOP</span>
+            <span class="skill-chip">Constrained Random Verification</span>
+            <span class="skill-chip">Functional Coverage</span>
+            <span class="skill-chip">RTL Debugging</span>
+            <span class="skill-chip">Regression Testing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title">Computer Architecture</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">Memory Systems</span>
+            <span class="skill-chip">Cache Organization</span>
+            <span class="skill-chip">Coherency Protocols</span>
+            <span class="skill-chip">Pipelining</span>
+            <span class="skill-chip">Out-of-Order Systems</span>
+            <span class="skill-chip">AI Accelerator Architectures</span>
+            <span class="skill-chip">Systolic Arrays</span>
+            <span class="skill-chip">Dataflow Architectures</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="page-header">
+        <h2 class="page-title">Experience</h2>
+        <p class="page-subtitle">Professional work and contributions</p>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-date">2023 – 2025</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Associate Engineer</h3>
+            <h4 class="company">Metro GSC</h4>
+            <p class="job-description">Developed automation tooling for large-scale verification datasets and performance analysis.</p>
+            <ul class="achievements">
+              <li>Built Python automation scripts for large verification datasets and performance trend analysis</li>
+              <li>Identified system bottlenecks through data-driven analysis</li>
+              <li>Automated graphical dashboards for performance monitoring using modern Python libraries</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Data Analysis</span>
+              <span class="tech-tag">Automation</span>
+              <span class="tech-tag">Dashboard Visualization</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2025 – Present</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Mentor</h3>
+            <h4 class="company">Oregon MESA</h4>
+            <p class="job-description">Mentoring students in microcontroller-based prototyping, debugging, and system design.</p>
+            <ul class="achievements">
+              <li>Teaching Arduino and Raspberry Pi-based projects</li>
+              <li>Focused on debugging methodologies and hardware system design principles</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Arduino</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">Mentorship</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="page-header">
+        <h2 class="page-title">Projects</h2>
+        <p class="page-subtitle">Hardware design, verification, and architecture</p>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-date">SystemVerilog · Python</div>
+          <div class="timeline-content">
+            <h3 class="job-title">2D Systolic Array AI Accelerator Chiplet</h3>
+            <p class="job-description">Designed a 1 TFLOPS/s systolic array accelerator targeting hybrid CNN workloads.</p>
+            <ul class="achievements">
+              <li>Enhanced hardware roofline performance by 3.7×</li>
+              <li>Achieved 7× kernel speedup for a hybrid CNN-based kernel</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">SystemVerilog</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">AI Accelerator</span>
+              <span class="tech-tag">Systolic Array</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">SystemVerilog · UVM</div>
+          <div class="timeline-content">
+            <h3 class="job-title">DDR5 Memory Interface PHY Verification</h3>
+            <p class="job-description">UVM-based verification of JEDEC DDR5 PHY analyzing timing, protocol correctness, and memory interface design tradeoffs.</p>
+            <ul class="achievements">
+              <li>Analyzed timing and protocol correctness across DDR5 interface design tradeoffs</li>
+              <li>Achieved 90% functional coverage via automated regression with Python scripts</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">SystemVerilog</span>
+              <span class="tech-tag">UVM</span>
+              <span class="tech-tag">DDR5</span>
+              <span class="tech-tag">Python</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">C</div>
+          <div class="timeline-content">
+            <h3 class="job-title">MIPS 5-Stage Pipeline Microarchitecture Model</h3>
+            <p class="job-description">Designed and implemented a C model of a 5-stage pipelined MIPS microarchitecture.</p>
+            <ul class="achievements">
+              <li>Modeled instruction flow, data/control hazards, forwarding, stalls, and flushes</li>
+              <li>Performed CPI analysis across different workloads</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">C</span>
+              <span class="tech-tag">MIPS</span>
+              <span class="tech-tag">Pipelining</span>
+              <span class="tech-tag">Computer Architecture</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Python</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Split L1 Cache System with MESI Protocol</h3>
+            <p class="job-description">Modeled and analyzed a split L1 cache architecture with MESI coherence protocol.</p>
+            <ul class="achievements">
+              <li>Evaluated performance tradeoffs across workloads and memory access patterns</li>
+              <li>Conducted exhaustive analysis of MESI state transitions and coherency behavior</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">MESI</span>
+              <span class="tech-tag">Cache Architecture</span>
+              <span class="tech-tag">Memory Hierarchy</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">SystemVerilog</div>
+          <div class="timeline-content">
+            <h3 class="job-title">AMBA AXI4-Lite Protocol Design &amp; Verification</h3>
+            <p class="job-description">Design and verification of an AMBA AXI4-Lite interface testbench.</p>
+            <ul class="achievements">
+              <li>Executed 12+ transactions across 6 protocol corner cases</li>
+              <li>Validated misaligned accesses, boundary conditions, back-to-back transfers, partial strobes, and R-channel stalls via simulation</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">SystemVerilog</span>
+              <span class="tech-tag">AXI4-Lite</span>
+              <span class="tech-tag">AMBA</span>
+              <span class="tech-tag">RTL Verification</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section" id="publications">
+      <div class="page-header">
+        <h2 class="page-title">Publications</h2>
+        <p class="page-subtitle">Research contributions</p>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Application of VGGish and YAMnet for North Indian Raga Music Recognition using Transfer Learning</h3>
+            <h4 class="company">Vol. 20, No. 6 (2024)</h4>
+            <p class="job-description">Applied deep learning transfer learning techniques for automatic recognition of North Indian classical ragas.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Raga Recommendation Based on Emotion Identification using NLP</h3>
+            <h4 class="company">Volume 11, Issue 4 — April 2023</h4>
+            <p class="job-description">Developed an NLP-based system for raga recommendation driven by emotion identification from text.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="page-header">
+        <h2 class="page-title">Education</h2>
+        <p class="page-subtitle">Academic background and specializations</p>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-date">Expected Jun 2027</div>
+          <div class="timeline-content">
+            <h3 class="job-title">M.S. Electrical and Computer Engineering</h3>
+            <h4 class="company">Portland State University — Portland, OR</h4>
+            <p class="job-description">GPA: 3.60 / 4.0</p>
+            <ul class="achievements">
+              <li>SystemVerilog for Design and Verification</li>
+              <li>Microprocessor System Design</li>
+              <li>Verilog Fundamentals of Pre-Silicon Validation</li>
+              <li>Computer Architecture &amp; Advanced Computer Architecture</li>
+              <li>Hardware for AI/ML</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jun 2023</div>
+          <div class="timeline-content">
+            <h3 class="job-title">B.E. Electronics and Telecommunication</h3>
+            <h4 class="company">Pune Institute of Computer and Technology — Pune, India</h4>
+            <p class="job-description">GPA: 3.50 / 4.0</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="page-header">
+        <h2 class="page-title">Contact</h2>
+        <p class="page-subtitle"><em>Seeking opportunities in <strong>Design Verification</strong>, <strong>Validation</strong>, and <strong>Hardware for AI</strong>.</em></p>
+      </div>
+      <table class="contact-table">
+        <tr>
+          <td>Email</td>
+          <td><a href="mailto:amogh.thakur23@gmail.com" class="nav-link">amogh.thakur23@gmail.com</a></td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+1 (503) 740-3632</td>
+        </tr>
+        <tr>
+          <td>LinkedIn</td>
+          <td><a href="https://www.linkedin.com/in/amogh-thakur-242822218/" target="_blank" rel="noopener" class="nav-link">linkedin.com/in/AmoghThakur</a></td>
+        </tr>
+        <tr>
+          <td>GitHub</td>
+          <td><a href="https://github.com/AmoghT23" target="_blank" rel="noopener" class="nav-link">github.com/AmoghThakur</a></td>
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>Portland, OR</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <footer class="footer">© 2026 Amogh Thakur. All rights reserved.</footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    new Typed('#typed-role', {
+      strings: ['Design Verification Enthusiast.', 'Hardware &amp; AI Architect.', 'and an Artist!'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true,
+    });
+
+    // Highlight active nav section on scroll
+    const links = document.querySelectorAll('.nav-link');
+    const sections = [...document.querySelectorAll('section[id]')];
+    const setActive = () => {
+      const y = window.scrollY + 100;
+      let activeId = sections[0]?.id;
+      for (const s of sections) {
+        if (y >= s.offsetTop) activeId = s.id;
+      }
+      links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + activeId));
+    };
+    window.addEventListener('scroll', setActive);
+    window.addEventListener('load', setActive);
+  </script>
+
+</body>
+</html>
