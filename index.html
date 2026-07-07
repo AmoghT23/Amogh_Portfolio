@@ -73,8 +73,12 @@
             <span class="skill-chip">SystemVerilog</span>
             <span class="skill-chip">Verilog</span>
             <span class="skill-chip">C</span>
+            <span class="skill-chip">C++</span>
             <span class="skill-chip">Python</span>
-            <span class="skill-chip">Perl</span>
+            <span class="skill-chip">Bash</span>
+            <span class="skill-chip">TCL</span>
+            <span class="skill-chip">Assembly (MIPS/RISC-V/x86)</span>
+            <span class="skill-chip">Linux</span>
           </div>
         </div>
         <div class="skill-category">
@@ -83,6 +87,12 @@
             <span class="skill-chip">QuestaSim</span>
             <span class="skill-chip">ModelSim</span>
             <span class="skill-chip">Synopsys VCS</span>
+            <span class="skill-chip">Icarus Verilog</span>
+            <span class="skill-chip">GTKWave</span>
+            <span class="skill-chip">GDB</span>
+            <span class="skill-chip">Git</span>
+            <span class="skill-chip">Cadence Genus</span>
+            <span class="skill-chip">Quartus Prime</span>
             <span class="skill-chip">Intel VTune</span>
           </div>
         </div>
@@ -92,6 +102,9 @@
             <span class="skill-chip">I2C</span>
             <span class="skill-chip">UART</span>
             <span class="skill-chip">AMBA AXI4-Lite</span>
+            <span class="skill-chip">AXI4-Stream</span>
+            <span class="skill-chip">JTAG (IEEE 1149.1)</span>
+            <span class="skill-chip">DFI</span>
           </div>
         </div>
         <div class="skill-category">
@@ -102,9 +115,25 @@
             <span class="skill-chip">UVM</span>
             <span class="skill-chip">SystemVerilog OOP</span>
             <span class="skill-chip">Constrained Random Verification</span>
+            <span class="skill-chip">SystemVerilog Assertions (SVA)</span>
             <span class="skill-chip">Functional Coverage</span>
+            <span class="skill-chip">Cocotb</span>
+            <span class="skill-chip">CDC</span>
             <span class="skill-chip">RTL Debugging</span>
             <span class="skill-chip">Regression Testing</span>
+            <span class="skill-chip">AI-Assisted RTL Development</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h4 class="skill-cat-title">Post-Silicon Validation</h4>
+          <div class="skills-grid-simple">
+            <span class="skill-chip">JTAG / Boundary Scan (BSCAN)</span>
+            <span class="skill-chip">MBIST Fundamentals</span>
+            <span class="skill-chip">Scan Chain Concepts</span>
+            <span class="skill-chip">ATPG Fault Models (SAF, TDF)</span>
+            <span class="skill-chip">DFX</span>
+            <span class="skill-chip">Silicon Bring-up</span>
+            <span class="skill-chip">Board-Level Debug</span>
           </div>
         </div>
         <div class="skill-category">
@@ -112,9 +141,10 @@
           <div class="skills-grid-simple">
             <span class="skill-chip">Memory Systems</span>
             <span class="skill-chip">Cache Organization</span>
-            <span class="skill-chip">Coherency Protocols</span>
+            <span class="skill-chip">Coherency Protocols (MESI)</span>
             <span class="skill-chip">Pipelining</span>
             <span class="skill-chip">Out-of-Order Systems</span>
+            <span class="skill-chip">ISA (MIPS/RISC-V/x86)</span>
             <span class="skill-chip">AI Accelerator Architectures</span>
             <span class="skill-chip">Systolic Arrays</span>
             <span class="skill-chip">Dataflow Architectures</span>
@@ -138,9 +168,8 @@
             <h4 class="company">Metro GSC</h4>
             <p class="job-description">Developed automation tooling for large-scale verification datasets and performance analysis.</p>
             <ul class="achievements">
-              <li>Built Python automation scripts for large verification datasets and performance trend analysis</li>
-              <li>Identified system bottlenecks through data-driven analysis</li>
-              <li>Automated graphical dashboards for performance monitoring using modern Python libraries</li>
+              <li>Built UiPath bots and Python test automation pipelines processing 50+ daily reports with regex parsing and pandas, running unattended on production servers and saving 10 hours of manual effort per week</li>
+              <li>Developed weekly stakeholder dashboards with Matplotlib and Pandas, surfacing KPI trends and troubleshooting anomalies across data sources for 20+ cross-functional business stakeholders</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">Python</span>
@@ -158,12 +187,13 @@
             <h4 class="company">Oregon MESA</h4>
             <p class="job-description">Mentoring students in microcontroller-based prototyping, debugging, and system design.</p>
             <ul class="achievements">
-              <li>Teaching Arduino and Raspberry Pi-based projects</li>
-              <li>Focused on debugging methodologies and hardware system design principles</li>
+              <li>Mentoring students with Arduino, Raspberry Pi, and Micro:bit IoT microcontrollers</li>
+              <li>Building critical thinking, problem-solving, troubleshooting, communication skills, and technical confidence</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">Arduino</span>
               <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">Micro:bit</span>
               <span class="tech-tag">Mentorship</span>
             </div>
           </div>
@@ -181,17 +211,20 @@
       <div class="timeline">
 
         <article class="timeline-item">
-          <div class="timeline-date">SystemVerilog · Python</div>
+          <div class="timeline-date">SystemVerilog · Python · Cadence Genus</div>
           <div class="timeline-content">
-            <h3 class="job-title">2D Systolic Array AI Accelerator Chiplet</h3>
-            <p class="job-description">Designed a 1 TFLOPS/s systolic array accelerator targeting hybrid CNN workloads.</p>
+            <h3 class="job-title"><a href="https://github.com/AmoghT23/510_Hardware_for_AI_ML" target="_blank" rel="noopener" class="project-link">2D Systolic Array AI Accelerator Chiplet</a></h3>
+            <p class="job-description">Designed a 32×32 BF16 weight-stationary systolic array (1,024 MAC tiles) for a ResNet-18 ML kernel with HW/SW co-design.</p>
             <ul class="achievements">
-              <li>Enhanced hardware roofline performance by 3.7×</li>
-              <li>Achieved 7× kernel speedup for a hybrid CNN-based kernel</li>
+              <li>Achieved 2.3 TFLOP/s with 16.1× kernel speedup and 3× roofline improvement over baseline</li>
+              <li>Synthesized on SAED14nm at 500 MHz (Cadence Genus), meeting timing at WNS = 0 ps with 2.86 mm² area, 1.36 W, and 178× energy efficiency over CPU</li>
+              <li>Integrated a PicoRV32 RISC-V core with the array on a Cyclone IV GX FPGA via AXI4-Lite</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">SystemVerilog</span>
               <span class="tech-tag">Python</span>
+              <span class="tech-tag">Cocotb</span>
+              <span class="tech-tag">Cadence Genus</span>
               <span class="tech-tag">AI Accelerator</span>
               <span class="tech-tag">Systolic Array</span>
             </div>
@@ -199,13 +232,14 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-date">SystemVerilog · UVM</div>
+          <div class="timeline-date">SystemVerilog · UVM · QuestaSim</div>
           <div class="timeline-content">
-            <h3 class="job-title">DDR5 Memory Interface PHY Verification</h3>
-            <p class="job-description">UVM-based verification of JEDEC DDR5 PHY analyzing timing, protocol correctness, and memory interface design tradeoffs.</p>
+            <h3 class="job-title"><a href="https://github.com/kvsriram11/Design-Verification-DDR5-PHY/tree/main/DDR5PHY_MS4_UVM" target="_blank" rel="noopener" class="project-link">DDR5 Memory Interface PHY Verification</a></h3>
+            <p class="job-description">UVM-based verification of JEDEC DDR5 PHY analyzing timing diagrams, synchronous logic behavior, and signal integrity for high-speed digital interfaces.</p>
             <ul class="achievements">
-              <li>Analyzed timing and protocol correctness across DDR5 interface design tradeoffs</li>
-              <li>Achieved 90% functional coverage via automated regression with Python scripts</li>
+              <li>Executed constrained-random scenarios — walking-1, same-rank collision, B2B phase hit — across 50+ randomized transactions</li>
+              <li>Injected bugs to validate MUX phase-swap detection across high-speed synchronous interfaces</li>
+              <li>Achieved 90% functional coverage via Python-automated regression testing</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">SystemVerilog</span>
@@ -217,13 +251,50 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-date">C</div>
+          <div class="timeline-date">Python · Raspberry Pi GPIO · JTAG/IEEE 1149.1</div>
           <div class="timeline-content">
-            <h3 class="job-title">MIPS 5-Stage Pipeline Microarchitecture Model</h3>
-            <p class="job-description">Designed and implemented a C model of a 5-stage pipelined MIPS microarchitecture.</p>
+            <h3 class="job-title">JTAG TAP Controller for Boundary Scan</h3>
+            <p class="job-description">Python-based IEEE 1149.1 JTAG TAP controller implemented on Raspberry Pi for board-level silicon validation and automated hardware-software debug interfacing.</p>
             <ul class="achievements">
-              <li>Modeled instruction flow, data/control hazards, forwarding, stalls, and flushes</li>
-              <li>Performed CPI analysis across different workloads</li>
+              <li>Designed a 16-state TAP FSM and BSCAN logic targeting a Xilinx FPGA</li>
+              <li>Developed Python scripts for shift-IR/shift-DR transactions, 32-bit IDCODE readback, and scan chain length detection</li>
+              <li>Built a regression framework with 5 smoke/sanity tests validating IDCODE liveness checks and loopback-based state verification</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Raspberry Pi GPIO</span>
+              <span class="tech-tag">JTAG</span>
+              <span class="tech-tag">Boundary Scan</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">x86 ISA · C · GDB</div>
+          <div class="timeline-content">
+            <h3 class="job-title">Validation of x86 Instruction Set Architecture (ISA) using GNU Debugger</h3>
+            <p class="job-description">Dynamically generated and executed randomized x86/x86-64 machine code at runtime in C, validated using GDB.</p>
+            <ul class="achievements">
+              <li>Used mmap with correct ModRM, REX prefix, and displacement encoding for runtime code generation</li>
+              <li>Extended to a multi-process framework using fork and setaffinity for parallel ISA validation across multiple CPU cores with shared memory regions</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">x86 ISA</span>
+              <span class="tech-tag">C</span>
+              <span class="tech-tag">GDB</span>
+              <span class="tech-tag">mmap</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">MIPS Assembly · C · Python</div>
+          <div class="timeline-content">
+            <h3 class="job-title"><a href="https://github.com/ECE586-486-WI2026/G6_code" target="_blank" rel="noopener" class="project-link">MIPS 5-Stage Pipeline Microarchitecture Model</a></h3>
+            <p class="job-description">Designed a 5-stage pipelined MIPS computer architecture in C across three modes: functional, no-forwarding, and EX→EX/MEM→EX forwarding.</p>
+            <ul class="achievements">
+              <li>Verified via Python-driven regression against a golden reference across 25+ trace files</li>
+              <li>Achieved 31% CPI reduction and 1.44× speedup by eliminating ALU→ALU RAW stalls; covered RAW hazard categories across ISA instructions</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">C</span>
@@ -237,11 +308,11 @@
         <article class="timeline-item">
           <div class="timeline-date">Python</div>
           <div class="timeline-content">
-            <h3 class="job-title">Split L1 Cache System with MESI Protocol</h3>
-            <p class="job-description">Modeled and analyzed a split L1 cache architecture with MESI coherence protocol.</p>
+            <h3 class="job-title"><a href="https://github.com/ECE-585-485-FA2025/project_code_g6" target="_blank" rel="noopener" class="project-link">Split L1 Cache System with MESI Protocol</a></h3>
+            <p class="job-description">Designed a split L1 instruction/data cache with full MESI coherence protocol, integrating an L2 directory.</p>
             <ul class="achievements">
-              <li>Evaluated performance tradeoffs across workloads and memory access patterns</li>
-              <li>Conducted exhaustive analysis of MESI state transitions and coherency behavior</li>
+              <li>Implemented pseudo-LRU replacement with a write-back policy across 7 trace operations (read, write, fetch, invalidate, snoop, reset, print)</li>
+              <li>Validated cache state correctness using CSV-based golden reference verification with per-trace-line and final-state checking</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">Python</span>
@@ -253,13 +324,12 @@
         </article>
 
         <article class="timeline-item">
-          <div class="timeline-date">SystemVerilog</div>
+          <div class="timeline-date">SystemVerilog · QuestaSim</div>
           <div class="timeline-content">
-            <h3 class="job-title">AMBA AXI4-Lite Protocol Design &amp; Verification</h3>
-            <p class="job-description">Design and verification of an AMBA AXI4-Lite interface testbench.</p>
+            <h3 class="job-title"><a href="https://github.com/AmoghT23/AMBA-AXI" target="_blank" rel="noopener" class="project-link">AMBA AXI4-Lite Protocol Design &amp; Verification</a></h3>
+            <p class="job-description">Implemented an AXI4-Lite manager-subordinate RTL with a 5-state read FSM and VALID/READY handshaking across a 4-KB addressable memory.</p>
             <ul class="achievements">
-              <li>Executed 12+ transactions across 6 protocol corner cases</li>
-              <li>Validated misaligned accesses, boundary conditions, back-to-back transfers, partial strobes, and R-channel stalls via simulation</li>
+              <li>Validated 8+ corner cases: aligned, misaligned, boundary, out-of-range, back-to-back, R-channel stall, and partial-strobe writes</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-tag">SystemVerilog</span>
@@ -284,7 +354,7 @@
         <article class="timeline-item">
           <div class="timeline-date">2024</div>
           <div class="timeline-content">
-            <h3 class="job-title">Application of VGGish and YAMnet for North Indian Raga Music Recognition using Transfer Learning</h3>
+            <h3 class="job-title"><a href="https://nano-ntp.com/index.php/nano/article/view/2702" target="_blank" rel="noopener" class="project-link">Application of VGGish and YAMnet for North Indian Raga Music Recognition using Transfer Learning</a></h3>
             <h4 class="company">Vol. 20, No. 6 (2024)</h4>
             <p class="job-description">Applied deep learning transfer learning techniques for automatic recognition of North Indian classical ragas.</p>
           </div>
@@ -293,7 +363,7 @@
         <article class="timeline-item">
           <div class="timeline-date">2023</div>
           <div class="timeline-content">
-            <h3 class="job-title">Raga Recommendation Based on Emotion Identification using NLP</h3>
+            <h3 class="job-title"><a href="https://ijcrt.org/viewfull.php?&p_id=IJCRT23A4120" target="_blank" rel="noopener" class="project-link">Raga Recommendation Based on Emotion Identification using NLP</a></h3>
             <h4 class="company">Volume 11, Issue 4 — April 2023</h4>
             <p class="job-description">Developed an NLP-based system for raga recommendation driven by emotion identification from text.</p>
           </div>
@@ -315,12 +385,14 @@
           <div class="timeline-content">
             <h3 class="job-title">M.S. Electrical and Computer Engineering</h3>
             <h4 class="company">Portland State University — Portland, OR</h4>
-            <p class="job-description">GPA: 3.60 / 4.0</p>
+            <p class="job-description">GPA: 3.50 / 4.0</p>
             <ul class="achievements">
               <li>SystemVerilog for Design and Verification</li>
               <li>Microprocessor System Design</li>
-              <li>Verilog Fundamentals of Pre-Silicon Validation</li>
-              <li>Computer Architecture &amp; Advanced Computer Architecture</li>
+              <li>Verilog</li>
+              <li>Computer Architecture</li>
+              <li>Fundamentals of Pre-Silicon Validation</li>
+              <li>Post-Silicon Validation</li>
               <li>Hardware for AI/ML</li>
             </ul>
           </div>
